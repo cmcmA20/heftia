@@ -8,7 +8,30 @@ source-repository-package
     tag: a6ad3c7d7c62d21cf088af109ceb1d10a56b7125
     subdir: eff
 
+source-repository-package
+    type: git
+    location: https://github.com/cmcmA20/compdata.git
+    tag: 9dd090c897772a7f04dd6bb407e55b69659b7be3
+
+source-repository-package
+    type: git
+    location: https://github.com/cmcmA20/data-effects.git
+    tag: 2eb0d119ac08aa298fa4615428d07dc6334d9976
+    subdir: data-effects
+
+source-repository-package
+    type: git
+    location: https://github.com/cmcmA20/data-effects.git
+    tag: 2eb0d119ac08aa298fa4615428d07dc6334d9976
+    subdir: data-effects-core
+
+source-repository-package
+    type: git
+    location: https://github.com/cmcmA20/data-effects.git
+    tag: 2eb0d119ac08aa298fa4615428d07dc6334d9976
+    subdir: data-effects-th
+
 allow-newer: eff:primitive
 
-benchmarks: True
+benchmarks: False
 tests: True
